@@ -29,14 +29,14 @@ ft_lstadd.c ft_lstdel.c ft_lstdelone.c ft_lstmap.c ft_lstiter.c ft_strsplit.c
 OBJ = $(SRCS:.c=.o)
 
 all:
-	gcc -c -Wall -Wextra -Werror $(SRCS)
-	ar rc $(NAME) $(OBJ)
-	ranlib $(NAME)
+	@gcc -c -Wall -Wextra -Werror $(SRCS)
+	@ar rc $(NAME) $(OBJ)
+	@ranlib $(NAME)
 
 clean:
-	/bin/rm -f *.o
+	@/bin/rm -f *.o
 
 fclean: clean
-	/bin/rm -f $(NAME) $(SHARED)
+	@/bin/rm -f $(NAME) $(SHARED)
 
 re: fclean all

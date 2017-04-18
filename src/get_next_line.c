@@ -6,11 +6,11 @@
 /*   By: rchiorea <rchiorea@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/28 15:56:56 by rchiorea          #+#    #+#             */
-/*   Updated: 2017/02/28 15:56:57 by rchiorea         ###   ########.fr       */
+/*   Updated: 2017/04/18 12:22:53 by rchiorea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "../get_next_line.h"
 
 static int		reading(int const fd, char **matrix)
 {

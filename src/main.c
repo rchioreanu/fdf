@@ -6,11 +6,11 @@
 /*   By: rchiorea <rchiorea@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/28 15:57:30 by rchiorea          #+#    #+#             */
-/*   Updated: 2017/02/28 15:57:31 by rchiorea         ###   ########.fr       */
+/*   Updated: 2017/04/18 12:23:07 by rchiorea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fdf.h"
+#include "../fdf.h"
 
 char	**ft_read_to_map(char **map, t_data *data, int fd, char *str)
 {

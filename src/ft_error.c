@@ -1,23 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_window_init.c                                   :+:      :+:    :+:   */
+/*   ft_error.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: rchiorea <rchiorea@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/02/28 15:56:27 by rchiorea          #+#    #+#             */
-/*   Updated: 2017/02/28 15:56:30 by rchiorea         ###   ########.fr       */
+/*   Created: 2017/02/28 15:55:53 by rchiorea          #+#    #+#             */
+/*   Updated: 2017/04/18 12:22:27 by rchiorea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fdf.h"
+#include "../fdf.h"
 
-void	ft_window_init(t_data *data, char *ar)
+int		ft_error(int err, char *str)
 {
-	data->name = ar;
-	data->deg = 0.52398776;
-	data->color = COLO;
-	data->mlx = mlx_init();
-	data->win = mlx_new_window(data->mlx, WIDTH, HEIGHT, data->name);
-	data->space = (WIDTH) / (data->cols + data->zoom);
+	if (err == 1)
+	{
+		write(1, str, ft_strlen(str));
+		return (0);
+	}
+	else if (err == 2)
+	{
+		write(1, str, ft_strlen(str));
+		exit(0);
+	}
+	return (0);
 }

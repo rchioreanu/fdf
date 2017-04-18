@@ -6,11 +6,11 @@
 /*   By: rchiorea <rchiorea@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/28 15:56:13 by rchiorea          #+#    #+#             */
-/*   Updated: 2017/02/28 15:56:16 by rchiorea         ###   ########.fr       */
+/*   Updated: 2017/04/18 12:22:35 by rchiorea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fdf.h"
+#include "../fdf.h"
 
 t_coord	**maptoco(char **map, t_data *data, t_coord **coord, int i)
 {

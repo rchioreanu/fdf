@@ -6,11 +6,11 @@
 /*   By: rchiorea <rchiorea@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/28 15:54:41 by rchiorea          #+#    #+#             */
-/*   Updated: 2017/02/28 15:54:42 by rchiorea         ###   ########.fr       */
+/*   Updated: 2017/04/18 12:21:54 by rchiorea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fdf.h"
+#include "../fdf.h"
 
 void	ft_draw_lines(t_data *data, t_coord **iso)
 {

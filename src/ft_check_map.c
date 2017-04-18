@@ -6,11 +6,11 @@
 /*   By: rchiorea <rchiorea@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/28 15:55:06 by rchiorea          #+#    #+#             */
-/*   Updated: 2017/02/28 15:55:08 by rchiorea         ###   ########.fr       */
+/*   Updated: 2017/04/18 12:22:08 by rchiorea         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "fdf.h"
+#include "../fdf.h"
 
 int	ft_signdigit(char digit)
 {
